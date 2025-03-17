@@ -10,6 +10,8 @@
 # See /LICENSE for more information.
 #
 
+
+name: OpenWrt Builder
 on:
   repository_dispatch:
   workflow_dispatch:
@@ -19,11 +21,6 @@ on:
         required: false
         default: 'false'
 
-name: OpenWrt Builder
-
-on:
-  repository_dispatch:
-  workflow_dispatch:
 
 env:
   REPO_URL: https://github.com/coolsnowwolf/lede
