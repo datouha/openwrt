@@ -119,8 +119,8 @@ git clone --depth=1 https://github.com/solidus1983/luci-theme-opentomato.git
 cp -rf luci-theme-opentomato/luci/themes/luci-theme-opentomato package/luci-theme-opentomato
 
 # 克隆 luci-theme-rosy 仓库
-git clone --depth=1 https://github.com/rosywrt/luci-theme-rosy.git
-cp -rf luci-theme-rosy/luci-theme-rosy package/luci-theme-rosy
+#git clone --depth=1 https://github.com/rosywrt/luci-theme-rosy.git
+#cp -rf luci-theme-rosy/luci-theme-rosy package/luci-theme-rosy
 
 #添加istore
 #git clone --depth=1 https://github.com/linkease/istore-ui.git
