@@ -79,9 +79,9 @@ jobs:
         cd openwrt
         $GITHUB_WORKSPACE/$DIY_P2_SH
 
-    - name: SSH connection to Actions
-      uses: P3TERX/debugger-action@master
-      if: env.SSH_ACTIONS == 'true' || contains(github.event.action, 'ssh')
+    - name: SSH connection to Actions  # 步骤名称：连接到 Actions 的 SSH
+      uses: P3TERX/debugger-action@master  # （已注释）使用 SSH 调试工具
+      if: env.SSH_ACTIONS == 'true' || contains(github.event.action, 'ssh')  # 触发条件判断
 
     - name: Download package
       id: package
